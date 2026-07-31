@@ -72,9 +72,9 @@ Réseau laboratoire :
 
 - [x] Création branche Git
 - [x] Création structure du laboratoire
-- [ ] Installation VMware Workstation
-- [ ] Configuration VMnet2
-- [ ] Création DC01
+- [x] Installation VMware Workstation
+- [x] Configuration VMnet2
+- [x] Création DC01
 - [ ] Installation Windows 11
 - [ ] Installation Ubuntu Server
 
@@ -89,3 +89,19 @@ Réseau laboratoire :
 # Résultat attendu
 
 Obtenir une infrastructure virtuelle fonctionnelle permettant de réaliser les prochains laboratoires Microsoft.
+
+---
+
+# Current State
+
+The virtualization environment is ready.
+
+Completed:
+
+- VMware Workstation Pro deployment
+- Isolated laboratory network configuration
+- DC01 virtual machine creation
+
+Next step:
+
+Install Windows Server 2025 on DC01 and configure the first enterprise services.

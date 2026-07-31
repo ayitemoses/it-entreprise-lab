@@ -1,0 +1,19 @@
+# VMware
+*.vmx~
+*.vmdk
+*.nvram
+*.vmem
+*.vmsd
+*.vmss
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Logs
+*.log

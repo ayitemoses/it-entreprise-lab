@@ -53,6 +53,15 @@ techsolutions.local
 
 ---
 
+
+## Architecture Documentation
+
+The Active Directory architecture design is available here:
+
+- architecture/active-directory-design.md
+
+---
+
 # Progress
 
 - [ ] Install Windows Server

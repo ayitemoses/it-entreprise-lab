@@ -1,142 +1,196 @@
 # Enterprise IT Lab
 
-A complete hands-on enterprise IT laboratory designed to simulate a real corporate infrastructure.
+A complete hands-on enterprise IT laboratory designed to simulate a real corporate IT infrastructure.
 
-This project documents the deployment, administration, automation, and troubleshooting of an enterprise environment using Microsoft technologies, virtualization, networking, cloud services, and Linux.
+This repository documents the design, deployment, administration, automation, security, and troubleshooting of an enterprise environment using Microsoft technologies, virtualization, networking, cloud services, and Linux.
 
-The goal is to build practical experience similar to that required for IT Support, System Administrator, and IT Analyst positions.
-
----
-
-## Technologies
-
-- Windows Server 2025
-- Windows 11
-- Active Directory Domain Services
-- DNS
-- DHCP
-- Group Policy
-- Microsoft 365
-- Exchange Online
-- Microsoft Entra ID
-- Microsoft Intune
-- Azure
-- Azure Virtual Machines
-- Azure Storage
-- Azure Networking
-- PowerShell
-- VMware Workstation Pro
-- Ubuntu Server
-- GLPI
-- Microsoft Defender
-- BitLocker
-- Veeam Backup
-- Windows Admin Center
+The primary goal is to develop practical, production-oriented skills required for IT Support, System Administrator, Infrastructure Administrator, and IT Analyst roles.
 
 ---
 
 ## Enterprise Scenario
 
-This lab simulates the IT infrastructure of a fictitious company named **TechSolutions Québec Inc.**
+This laboratory simulates the IT infrastructure of a fictitious company named **TechSolutions Québec Inc.**
 
 The environment includes:
 
-- Domain Controller
-- Windows clients
-- Linux server
-- Active Directory
-- Microsoft 365
-- Azure integration
-- Endpoint management
-- Help Desk
-- Network services
-- Backup
-- Security
-- Documentation
+* Windows Server infrastructure
+* Active Directory Domain Services
+* DNS
+* Windows 11 client computers
+* Microsoft 365
+* Microsoft Entra ID
+* Microsoft Intune
+* Azure services
+* PowerShell automation
+* Linux administration
+* Help Desk (GLPI)
+* Backup and disaster recovery
+* Security hardening
+* Technical documentation
+
+---
+
+## Technologies
+
+### Microsoft Infrastructure
+
+* Windows Server 2025
+* Windows 11
+* Active Directory Domain Services (AD DS)
+* DNS
+* DHCP
+* Group Policy (GPO)
+* File Services
+
+### Microsoft Cloud
+
+* Microsoft 365
+* Exchange Online
+* Microsoft Entra ID
+* Microsoft Intune
+* Microsoft Azure
+* Azure Virtual Machines
+* Azure Storage
+* Azure Networking
+
+### Virtualization & Operating Systems
+
+* VMware Workstation Pro
+* Ubuntu Server
+
+### Administration & Automation
+
+* PowerShell
+* Windows Admin Center
+* GLPI
+* Microsoft Defender
+* BitLocker
+* Veeam Backup & Replication
 
 ---
 
 ## Learning Objectives
 
-- Deploy an enterprise infrastructure
-- Configure Windows Server
-- Manage Active Directory
-- Implement Group Policies
-- Configure DNS and DHCP
-- Manage Microsoft 365
-- Configure Microsoft Entra ID
-- Deploy devices using Microsoft Intune
-- Automate administrative tasks with PowerShell
-- Troubleshoot Windows and Microsoft 365
-- Manage IT incidents using GLPI
-- Configure Azure resources
-- Secure enterprise devices
-- Document enterprise procedures
+This project focuses on developing practical enterprise administration skills, including:
+
+* Deploy Windows Server infrastructure
+* Configure Active Directory
+* Manage users, groups and Organizational Units
+* Deploy and manage Group Policies
+* Configure DNS and DHCP
+* Join Windows clients to an Active Directory domain
+* Manage Microsoft 365 and Microsoft Entra ID
+* Deploy and manage devices with Microsoft Intune
+* Automate administrative tasks using PowerShell
+* Troubleshoot Windows Server and Active Directory
+* Manage IT incidents with GLPI
+* Deploy Azure infrastructure
+* Secure enterprise environments
+* Produce professional technical documentation
 
 ---
 
-## Labs
+## Lab Progress
 
-| Lab | Title | Status |
-|------|-------|--------|
-| 01 | Infrastructure | ⏳ |
-| 02 | Windows Server | ⏳ |
-| 03 | Active Directory | ⏳ |
-| 04 | DNS & DHCP | ⏳ |
-| 05 | Group Policy | ⏳ |
-| 06 | File Server | ⏳ |
-| 07 | Microsoft 365 | ⏳ |
-| 08 | Microsoft Entra ID | ⏳ |
-| 09 | Microsoft Intune | ⏳ |
-| 10 | PowerShell Automation | ⏳ |
-| 11 | IT Support Scenarios | ⏳ |
-| 12 | GLPI Help Desk | ⏳ |
-| 13 | Linux Administration | ⏳ |
-| 14 | Azure | ⏳ |
-| 15 | Backup & Disaster Recovery | ⏳ |
-| 16 | Security | ⏳ |
-| 17 | Final Enterprise Project | ⏳ |
+| Lab | Title                            |     Status    |
+| --- | -------------------------------- | :-----------: |
+| 01  | VMware Infrastructure            |  ✅ Completed  |
+| 02  | Active Directory Domain Services |  ✅ Completed  |
+| 03  | Users and Security Groups        | ⏳ In Progress |
+| 04  | Windows 11 Domain Join           |   ⏳ Planned   |
+| 05  | Group Policy Management          |   ⏳ Planned   |
+| 06  | DHCP Server                      |   ⏳ Planned   |
+| 07  | File Server & NTFS Permissions   |   ⏳ Planned   |
+| 08  | Microsoft 365 Administration     |   ⏳ Planned   |
+| 09  | Microsoft Entra ID               |   ⏳ Planned   |
+| 10  | Microsoft Intune                 |   ⏳ Planned   |
+| 11  | PowerShell Automation            |   ⏳ Planned   |
+| 12  | IT Support Scenarios             |   ⏳ Planned   |
+| 13  | GLPI Help Desk                   |   ⏳ Planned   |
+| 14  | Linux Administration             |   ⏳ Planned   |
+| 15  | Microsoft Azure                  |   ⏳ Planned   |
+| 16  | Backup & Disaster Recovery       |   ⏳ Planned   |
+| 17  | Enterprise Security              |   ⏳ Planned   |
+| 18  | Final Enterprise Project         |   ⏳ Planned   |
+
+---
+
+## Current Infrastructure
+
+The current laboratory environment includes:
+
+* VMware Workstation Pro
+* Windows Server 2025
+* Domain Controller (DC01)
+* Active Directory Forest: **techsolutions.local**
+* DNS Server
+* Organizational Units
+* Enterprise documentation
+* Git workflow with feature branches and Pull Requests
 
 ---
 
 ## Repository Structure
 
-```
-Enterprise-IT-Lab
+```text
+it-entreprise-lab/
 │
 ├── docs/
 ├── diagrams/
-├── screenshots/
 ├── scripts/
 │   ├── powershell/
 │   └── bash/
 ├── labs/
-│   ├── Lab01-Infrastructure/
-│   ├── Lab02-WindowsServer/
-│   ├── Lab03-ActiveDirectory/
-│   ├── Lab04-DNS-DHCP/
-│   ├── Lab05-GPO/
-│   ├── Lab06-FileServer/
-│   ├── Lab07-Microsoft365/
-│   ├── Lab08-EntraID/
-│   ├── Lab09-Intune/
-│   ├── Lab10-PowerShell/
-│   ├── Lab11-ITSupport/
-│   ├── Lab12-GLPI/
-│   ├── Lab13-Linux/
-│   ├── Lab14-Azure/
-│   ├── Lab15-Backup/
-│   ├── Lab16-Security/
-│   └── Lab17-Capstone/
+│   ├── lab01-infrastructure/
+│   ├── lab02-active-directory/
+│   ├── lab03-users-and-groups/
+│   ├── lab04-windows11-domain-join/
+│   ├── lab05-group-policy/
+│   ├── lab06-dhcp/
+│   ├── lab07-file-server/
+│   ├── lab08-microsoft365/
+│   ├── lab09-entra-id/
+│   ├── lab10-intune/
+│   ├── lab11-powershell/
+│   ├── lab12-it-support/
+│   ├── lab13-glpi/
+│   ├── lab14-linux/
+│   ├── lab15-azure/
+│   ├── lab16-backup/
+│   ├── lab17-security/
+│   └── lab18-capstone/
 └── README.md
 ```
 
 ---
 
+## Skills Demonstrated
+
+Throughout this project, I practice and document:
+
+* Windows Server Administration
+* Active Directory Administration
+* DNS and DHCP Management
+* User and Group Administration
+* Group Policy Management
+* Windows Client Management
+* PowerShell Scripting
+* Microsoft 365 Administration
+* Microsoft Entra ID
+* Microsoft Intune
+* Azure Administration
+* Linux Administration
+* IT Support and Troubleshooting
+* Infrastructure Documentation
+* Git Workflow and Version Control
+
+---
+
 ## Author
 
-Moses Ayite
+**Moses Ayite**
 
 Master's Student in Software Engineering
 
-Building practical enterprise IT administration skills through real-world laboratory scenarios.
+Building practical enterprise IT administration skills through real-world enterprise laboratory scenarios.

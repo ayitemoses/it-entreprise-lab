@@ -64,9 +64,23 @@ The Active Directory architecture design is available here:
 
 # Progress
 
-- [ ] Install Windows Server
-- [ ] Rename server to DC01
-- [ ] Configure static IP
-- [ ] Install AD DS
-- [ ] Create Active Directory domain
-- [ ] Validate DNS
+- [x] Install Windows Server
+- [x] Rename server to DC01
+- [x] Configure static IP
+- [x] Install AD DS
+- [x] Create Active Directory domain
+- [x] Validate DNS
+
+## Skills Practiced
+
+- Windows Server Administration
+- Active Directory Domain Services
+- DNS
+- Domain Controller deployment
+- Organizational Units
+- Git workflow
+- Technical documentation
+
+## Result
+
+A fully functional Active Directory environment was successfully deployed for the TechSolutions laboratory.

@@ -24,8 +24,8 @@ Manage user accounts and security groups in Active Directory.
 
 ## Tasks
 
-- [ ] Create security groups
-- [ ] Create user accounts
-- [ ] Assign users to groups
-- [ ] Validate permissions
-- [ ] Document configuration
+- [x] Create security groups
+- [x] Create user accounts
+- [x] Assign users to groups
+- [x] Validate permissions
+- [x] Document configuration

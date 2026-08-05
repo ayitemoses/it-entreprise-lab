@@ -6,6 +6,7 @@ This folder contains PowerShell scripts used to automate Active Directory admini
 
 - Create-Groups.ps1
 - Create-Users.ps1
+- Create-multiple-users.ps1
 
 ## Requirements
 

@@ -104,4 +104,4 @@ Completed:
 
 Next step:
 
-Install Windows Server 2025 on DC01 and configure the first enterprise services.
+Install Windows Server 2025 on DC01 and configure the first enterprise services.WI

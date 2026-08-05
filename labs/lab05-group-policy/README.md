@@ -25,10 +25,10 @@ Learn how to create, configure, and apply Group Policy Objects (GPO) in an Activ
 
 ## Tasks
 
-- [ ] Create a GPO
-- [ ] Link the GPO to an OU
-- [ ] Configure desktop wallpaper
-- [ ] Disable Control Panel
-- [ ] Force Group Policy update
-- [ ] Validate applied policies
-- [ ] Document the lab
+- [x] Create a GPO
+- [x] Link the GPO to an OU
+- [x] Configure desktop wallpaper
+- [x] Disable Control Panel
+- [x] Force Group Policy update
+- [x] Validate applied policies
+- [x] Document the lab

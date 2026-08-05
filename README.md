@@ -97,8 +97,8 @@ This project focuses on developing practical enterprise administration skills, i
 | --- | -------------------------------- | :-----------: |
 | 01  | VMware Infrastructure            |  ✅ Completed  |
 | 02  | Active Directory Domain Services |  ✅ Completed  |
-| 03  | Users and Security Groups        | ⏳ In Progress |
-| 04  | Windows 11 Domain Join           |   ⏳ Planned   |
+| 03  | Users and Security Groups        |  ✅ Completed  |
+| 04  | Windows 11 Domain Join           |  ✅ Completed  |
 | 05  | Group Policy Management          |   ⏳ Planned   |
 | 06  | DHCP Server                      |   ⏳ Planned   |
 | 07  | File Server & NTFS Permissions   |   ⏳ Planned   |

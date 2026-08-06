@@ -148,10 +148,10 @@ it-entreprise-lab/
 │   ├── lab04-windows11-domain-join/
 │   ├── lab05-group-policy/
 │   ├── lab06-dhcp/
-│   ├── lab07-file-server/
-│   ├── lab08-microsoft365/
-│   ├── lab09-entra-id/
-│   ├── lab10-intune/
+│   ├── lab07-microsoft365/
+│   ├── lab08-entra-id/
+│   ├── lab09-intune/
+|   ├── lab10-file-server/
 │   ├── lab11-powershell/
 │   ├── lab12-it-support/
 │   ├── lab13-glpi/
